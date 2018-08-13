@@ -1,0 +1,22 @@
+---
+layout: default
+title: Frequently Asked Questions
+permalink: /faq/
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h2>Frequently Asked Questions</h2>
+    </div>
+</section>
+<section id="wrapper">
+    <div class="wrapper">
+        <div class="inner">
+            {% for faq in site.data.faqs %}
+            <h3 class="major">{{ faq.question }}</h3>
+            {{ faq.answer_markdown | markdownify }}
+            {% endfor %}
+        </div>
+    </div>
+</section>

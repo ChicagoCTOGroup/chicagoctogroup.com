@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+    <body class="is-preload">
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+            <!-- Header -->
+            <header id="header" class="alt">
+                <h1><a href="/">{{ site.title }}</a></h1>
+                <nav><a href="#menu">Menu</a></nav>
+            </header>
+
+            <!-- Menu -->
+            <nav id="menu">
+                <div class="inner">
+                    <h2>Menu</h2>
+                    <ul class="links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/faq">Frequently Asked Questions</a></li>
+                        <li><a href="/code-of-conduct">Code of Conduct</a></li>
+                    </ul>
+                    <a href="#" class="close">Close</a>
+                </div>
+            </nav>
+
+            {{ content }}
+
+            <!-- Footer -->
+            <section id="footer">
+                <div class="inner">
+                    {% include contact_form.html %}
+                    <ul class="copyright">
+                        <li>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        {% include scripts.html %}
+    </body>
+</html>

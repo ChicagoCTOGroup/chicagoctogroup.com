@@ -50,6 +50,7 @@
 				border: 0;
 				display: inline-block;
 				padding: 0 1em;
+				color: _palette(fg-reverse);
 
 				&:before {
 					float: right;
@@ -69,10 +70,12 @@
 
 					&:hover {
 						background-color: _palette(border-bg);
+						color: _palette(fg-light) !important;
 					}
 
 					&:active {
 						background-color: _palette(border2-bg);
+						color: _palette(fg-reverse);
 					}
 				}
 			}

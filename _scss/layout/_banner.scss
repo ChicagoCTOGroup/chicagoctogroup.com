@@ -12,6 +12,10 @@
 		.inner {
 			margin: 0 auto;
 			width: _size(inner);
+			.reverse {
+				font-weight: _font(weight-bold);
+				color: _palette(fg-reverse);
+			}
 		}
 
 		.logo-cto {

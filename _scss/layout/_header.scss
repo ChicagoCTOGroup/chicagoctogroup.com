@@ -94,6 +94,12 @@
 			height: 2.75em;
 			line-height: 2.75em;
 
+			h1 {
+				a {
+					color: _palette(fg-reverse);
+				}
+			}
+
 			nav {
 				top: 0;
 				right: 0;

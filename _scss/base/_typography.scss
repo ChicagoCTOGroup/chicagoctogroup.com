@@ -123,24 +123,28 @@
 		}
 	}
 
-	h2 {
+	h1, .h1 {
+		font-size: 1.4em;
+	}
+
+	h2, .h2 {
 		font-size: 1.2em;
 		color: _palette(fg-reverse);
 	}
 
-	h3 {
+	h3, .h3 {
 		font-size: 0.9em;
 	}
 
-	h4 {
+	h4, .h4 {
 		font-size: 0.7em;
 	}
 
-	h5 {
+	h5, .h5 {
 		font-size: 0.7em;
 	}
 
-	h6 {
+	h6, .h6 {
 		font-size: 0.7em;
 	}
 

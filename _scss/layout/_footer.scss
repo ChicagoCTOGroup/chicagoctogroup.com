@@ -34,6 +34,13 @@
 				width: calc(50% - #{_size(section-spacing, large) * 0.5});
 			}
 
+			p {
+				color: #fff;
+				strong {
+					color: inherit;
+				}
+			}
+
 			.copyright {
 				border-top: solid 2px _palette(border);
 				list-style: none;

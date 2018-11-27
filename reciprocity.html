@@ -15,7 +15,15 @@ permalink: /reciprocity/
     <div class="wrapper">
         <div class="inner prose">
             <p>If you are a {{ site.title }} member and happen to be in one of cities below, you are welcomed and encouraged to join a meeting.</p>
-            <p>Send an email to <a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a> and we will get you in touch with our partner organizers.</p>
+            <p>Before attending a meeting, you must:</p>
+            <ul>
+                <li>Receive confirmation from local organizers before the meeting begins</li>
+                <li>Familiarize yourself with the local customs and specific cultural anthropologies (eg. dress code)</li>
+                <li>Acknowledge that you are not permitted to pitch your product or services</li>
+                <li>Acknolwedge that all discussions are understood to be governed by strict confidentiality--known as the Chatham House Rule</li>
+            </ul>
+            <p>Send an email to <a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a> to get in touch with our partner organizers.</p>
+            <h3 class="major">Partner Groups</h3>
             <ul>
             {% for group in site.data.partner-groups %}
             <li><strong>{{ group.name }}</strong><br />{{ group.description_markdown }}</li>

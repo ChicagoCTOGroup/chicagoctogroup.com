@@ -60,8 +60,12 @@
 
     - **Google Group (chicagoctogroup@googlegroups.com)**<br />This is the chanel for asynchronous communication for the group, where a thread format is more beneficial than a chatroom one and where discussions on specific topics may expand on longer periods of time.
 
-    - **In Person**<br />Everyone likes meeting in person. We do so every month except in December. Our location rotates amongst the member’s offices every month on a rotating day of week. Invite with event details are disclosed on Slack and the Google group.
+    - **In Person**<br />Everyone likes meeting in person. We do so every month except in December. Our location rotates amongst the member’s offices every month on a rotating day of week. Invite with event details are disclosed on Slack and the Google group. As a member, you're also invited to meet with CTO groups in other cities around the world through our [CTO Club Reciprocity Program](/reciprocity).
 - question: "What about confidentiality?"
   slug: "what-about-confidentiality"
   answer_markdown: >-
     This group is confidential amongst its members. Anything said is expected to remain within the group only. All discussions are understood to be governed by strict confidentiality--known as the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_House_Rule). Anyone who breaks the confidentiality of the group will be removed. For more information, please review our [code of conduct](/code-of-conduct).
+- question: "I am moving or traveling to another city, can you connect me with other CTO groups?"
+  slug: "cto-club-reciprocity-program"
+  answer_markdown: >-
+    Yes! We've partnered with several CTO groups in other cities around the world to form the [CTO Club Reciprocity Program](/reciprocity). TL;DR - We'll introduce you to the other groups, follow the rules, and you're welcomed and encouraged to attend meetings.

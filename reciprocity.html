@@ -1,0 +1,26 @@
+---
+layout: default
+title: CTO Club Reciprocity Program
+permalink: /reciprocity/
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h2>CTO Club Reciprocity Program</h2>
+        <p class="reverse">Attend a meeting with CTOs from other cities</p>
+    </div>
+</section>
+<section id="wrapper">
+    <div class="wrapper">
+        <div class="inner prose">
+            <p>If you are a {{ site.title }} member and happen to be in one of cities below, you are welcomed and encouraged to join a meeting.</p>
+            <p>Send an email to <a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a> and we will get you in touch with our partner organizers.</p>
+            <ul>
+            {% for group in site.data.partner-groups %}
+            <li><strong>{{ group.name }}</strong><br />{{ group.description_markdown }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>

@@ -1,4 +1,5 @@
 - question: "What is the Chicago CTO Group?"
+  slug: "what-is-chicago-cto-group"
   answer_markdown: >-
     The group is a private network of Chicago software executives who exchange ideas, share experiences, help each other, and help the Chicago technology community stay one of the top technology hubs in the world.
 
@@ -18,6 +19,7 @@
 
     - Confidential help on sensitive topics by other executives who have tackled similar problems (reach out to the moderators how to get help)
 - question: "I'm not a CTO, can I still join?"
+  slug: "can-i-still-join"
   answer_markdown: >-
     Most individuals join the group through an introduction by an existing member of the group. However, if you are currently or have been a CTO, VP, or Director within your organization's technology team, with one or more teams reporting to you, this group is for you. Please contact the moderators of the group with a some context by answering the following questions:
 
@@ -25,7 +27,7 @@
 
     - What value or contribution do you see yourself making to the group?
 
-    - What is your experience and position at a high level? (linkedin profile welcome)
+    - What is your experience and position at a high level? (LinkedIn profile welcome)
 
     - What questions do you have about the group?
 
@@ -33,21 +35,11 @@
 
     We will be glad to meet up for coffee and introduce you to the group.
 - question: "How do I join the group?"
+  slug: "how-to-join"
   answer_markdown: >-
-    Most individuals join the group through an introduction by an existing member of the group. However, if you are currently or have been a CTO, VP, or Director within your organization's technology team, with one or more teams reporting to you, this group is for you. Please contact the moderators of the group with a some context by answering the following questions:
-
-    - Do you have an existing connection in the group who would sponsor you?
-
-    - What value or contribution do you see yourself making to the group?
-
-    - What is your experience and position at a high level? (linkedin profile welcome)
-
-    - What questions do you have about the group?
-
-    - What can the Chicago CTO Group do for you?
-
-    We will be glad to meet up for coffee and introduce you to the group.
+    We've outlined [our process for joining the group](/join). TL;DR - Introduce yourself to the organizers via email.
 - question: "What does the group do for the Chicago community?"
+  slug: "what-does-the-group-do-for-community"
   answer_markdown: >-
     - Better software executives in the Chicago community
 
@@ -58,15 +50,18 @@
 
     If you have a need from the group please contact one of the moderators.
 - question: "I've got a service or product that would be valuable to the group, can I pitch it?"
+  slug: "can-i-pitch-my-product-or-service"
   answer_markdown: >-
     Sorry but this is not within the scope of the group. This group is for discussion and education first and foremost. If someone approaches you for more information, that's fair game. But no sales or pitching are allowed.
 - question: "How does the group communicate?"
+  slug: "how-does-the-group-communicate"
   answer_markdown: >-
     - **Slack (chicagoctogroup.slack.com)**<br />This is the primary discussion and collaboration hub for the group. Send an email to the moderator with your preferred email address for an invite to the private Slack.
 
     - **Google Group (chicagoctogroup@googlegroups.com)**<br />This is the chanel for asynchronous communication for the group, where a thread format is more beneficial than a chatroom one and where discussions on specific topics may expand on longer periods of time.
 
-    - **In Person**<br />Everyone likes meeting in person. We do so every month except in December. Our location rotates amongst the member’s offices every month. Invite with event details are disclosed on Slack and the Google group.
+    - **In Person**<br />Everyone likes meeting in person. We do so every month except in December. Our location rotates amongst the member’s offices every month on a rotating day of week. Invite with event details are disclosed on Slack and the Google group.
 - question: "What about confidentiality?"
+  slug: "what-about-confidentiality"
   answer_markdown: >-
-    This group is confidential amongst its members. Anything said is expected to remain within the group only. Anyone who breaks the confidentiality of the group will be removed. For more information, please review our [code of conduct](/code-of-conduct).
+    This group is confidential amongst its members. Anything said is expected to remain within the group only. All discussions are understood to be governed by strict confidentiality--known as the [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_House_Rule). Anyone who breaks the confidentiality of the group will be removed. For more information, please review our [code of conduct](/code-of-conduct).

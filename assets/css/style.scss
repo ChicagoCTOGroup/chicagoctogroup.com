@@ -50,3 +50,25 @@
 	@import 'layout/banner';
 	@import 'layout/wrapper';
 	@import 'layout/footer';
+
+// Various overrides.
+
+.prose {
+	a {
+		text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	ul, ol {
+		padding-left: 2rem;
+	}
+
+	a.anchor {
+	    display: block;
+	    position: relative;
+	    top: -150px;
+	    visibility: hidden;
+	}
+}

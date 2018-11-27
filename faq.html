@@ -12,7 +12,7 @@ permalink: /faq/
 </section>
 <section id="wrapper">
     <div class="wrapper">
-        <div class="inner">
+        <div class="inner prose">
             {% for faq in site.data.faqs %}
             <h3 class="major">{{ faq.question }}</h3>
             {{ faq.answer_markdown | markdownify }}

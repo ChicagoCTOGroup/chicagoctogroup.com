@@ -53,6 +53,12 @@
 
 // Various overrides.
 
+.logo-cto {
+	a {
+		border-bottom: none;
+	}
+}
+
 .prose {
 	a {
 		text-decoration: underline;

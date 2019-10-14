@@ -16,7 +16,7 @@
 title: Chicago CTO Group
 email: organizers@chicagoctogroup.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A network of Chicago software executives
+  A network of over 200 Chicago software executives
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.chicagoctogroup.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ChicagoCTOGroup

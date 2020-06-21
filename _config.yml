@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Chicago CTO Group
-email: organizers@chicagoctogroup.com
+email: admin@chicagoctogroup.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A network of over 200 Chicago software executives
+  A network of Chicago technology leaders
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.chicagoctogroup.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ChicagoCTOGroup

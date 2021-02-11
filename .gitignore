@@ -125,5 +125,3 @@ dist
 .yarn/install-state.gz
 .pnp.*
 package-lock.json
-_config (1).yml
-CNAME (1)
